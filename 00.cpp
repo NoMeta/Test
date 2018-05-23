@@ -1,11 +1,9 @@
 /*main.cpp        Anthony Cote        2018/05-06      Best code ev4r*/
 #pragma once
-#include "stdafx.h"
-#include <iostream>
-using namespace std;
-
+#include "stdafx.h"s
 const int PI = 3.1416;
 
+rdsgtdsgfdsf
 // boolIsFalse(bool b)
 bool boolIsFalse(bool b) {
     if (b == true) { ; }
@@ -19,7 +17,7 @@ int main() {
     char nom[99999];
     int i = 0;
 
-    cout << "What is your name?                                                              ";
+    cout << "What is your namddddddddddddddddd?                                                              ";
     while (boolIsFalse(next == 10)) {
         next = cin.get();
         nom[i] = next;
@@ -27,7 +25,6 @@ int main() {
     }
     nom[i - 1] = '.';
 
-    cout << "Hello ";
     for (int j = 0; j < i; j++){
         if (nom[j] == '.')
             break;
